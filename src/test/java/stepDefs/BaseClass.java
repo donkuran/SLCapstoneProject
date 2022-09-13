@@ -23,7 +23,7 @@ public class BaseClass {
 		driver = new ChromeDriver();
 //		driver = new FirefoxDriver();
 
-		driver.get("http://localhost:8080/medicare/");
+		driver.get("http://localhost:8585/medicare/");
 
 		// Maximize window
 		driver.manage().window().maximize();

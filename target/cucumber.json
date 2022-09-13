@@ -1,0 +1,659 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T07:01:00.312Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2178196100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate successful login",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application;validate-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 65133200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1753100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 489600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be landed on the Main page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Logincap"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T07:01:02.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1442847400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate successful login using test data",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application;validate-successful-login-using-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 2412889400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1481800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I enter username \"kn@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 787700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I enter password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should be landed on the Main page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Logincap"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T07:01:06.505Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1474626600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Validate successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application;validate-successful-login-using-multiple-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 72342100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1332300,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 729000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I enter username \"kn@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 726800,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I enter password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683800,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should be landed on the Main page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Logincap"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T07:01:08.066Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1409341400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Validate successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application;validate-successful-login-using-multiple-test-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 73264900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1038100,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507100,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I enter username \"vk@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vk@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672600,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I enter password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624400,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should be landed on the Main page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Logincap"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T07:01:09.558Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1455954400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Validate negative login using test data",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application;validate-negative-login-using-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 2431022400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107100,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675400,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I enter username \"kn@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kn@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 807400,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I enter password \"54321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"54321\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723900,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675300,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I should be get the error message \"Username and Password is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username and Password is invalid!\"",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.i_should_be_get_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Logincap"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the Login page of the application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Caplogin.feature",
+    "tags": [
+      {
+        "name": "@F_Logincap",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
