@@ -18,12 +18,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have opened the application in browser",
+  "name": "I have opened the application in a browser",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate successful login",
@@ -46,7 +48,7 @@ formatter.match({
   "location": "LoginSteps.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter username",
@@ -56,7 +58,7 @@ formatter.match({
   "location": "LoginSteps.i_enter_username()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter password",
@@ -66,17 +68,17 @@ formatter.match({
   "location": "LoginSteps.i_enter_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.i_click_on_the_Login_Button()"
+  "location": "LoginSteps.i_click_on_the_LoginB_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be landed on the Main page",
@@ -86,7 +88,7 @@ formatter.match({
   "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -100,12 +102,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have opened the application in browser",
+  "name": "I have opened the application in a browser",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate successful login using test data",
@@ -125,7 +129,7 @@ formatter.match({
   "location": "LoginSteps.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter username \"kn@gmail.com\"",
@@ -135,7 +139,7 @@ formatter.match({
   "location": "LoginSteps.i_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter password \"12345\"",
@@ -145,17 +149,17 @@ formatter.match({
   "location": "LoginSteps.i_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.i_click_on_the_Login_Button()"
+  "location": "LoginSteps.i_click_on_the_LoginB_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be landed on the Main page",
@@ -165,7 +169,7 @@ formatter.match({
   "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -188,7 +192,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.step({
@@ -229,12 +233,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have opened the application in browser",
+  "name": "I have opened the application in a browser",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate successful login using multiple test data",
@@ -254,7 +260,7 @@ formatter.match({
   "location": "LoginSteps.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter username \"kn@gmail.com\"",
@@ -264,7 +270,7 @@ formatter.match({
   "location": "LoginSteps.i_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter password \"12345\"",
@@ -274,17 +280,17 @@ formatter.match({
   "location": "LoginSteps.i_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.i_click_on_the_Login_Button()"
+  "location": "LoginSteps.i_click_on_the_LoginB_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be landed on the Main page",
@@ -294,7 +300,7 @@ formatter.match({
   "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -308,12 +314,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have opened the application in browser",
+  "name": "I have opened the application in a browser",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate successful login using multiple test data",
@@ -333,7 +341,7 @@ formatter.match({
   "location": "LoginSteps.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter username \"vk@gmail.com\"",
@@ -343,7 +351,7 @@ formatter.match({
   "location": "LoginSteps.i_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter password \"admin\"",
@@ -353,17 +361,17 @@ formatter.match({
   "location": "LoginSteps.i_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.i_click_on_the_Login_Button()"
+  "location": "LoginSteps.i_click_on_the_LoginB_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be landed on the Main page",
@@ -373,7 +381,7 @@ formatter.match({
   "location": "LoginSteps.i_should_be_landed_on_the_Main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -387,12 +395,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I have opened the application in browser",
+  "name": "I have opened the application in a browser",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate negative login using test data",
@@ -412,7 +422,7 @@ formatter.match({
   "location": "LoginSteps.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter username \"kn@gmail.com\"",
@@ -422,7 +432,7 @@ formatter.match({
   "location": "LoginSteps.i_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I enter password \"54321\"",
@@ -432,17 +442,17 @@ formatter.match({
   "location": "LoginSteps.i_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on the Login Button",
+  "name": "I click on the LoginB Button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.i_click_on_the_Login_Button()"
+  "location": "LoginSteps.i_click_on_the_LoginB_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be get the error message \"Username and Password is invalid!\"",
@@ -452,7 +462,7 @@ formatter.match({
   "location": "LoginSteps.i_should_be_get_the_error_message(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

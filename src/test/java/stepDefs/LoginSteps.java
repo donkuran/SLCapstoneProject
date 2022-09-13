@@ -6,6 +6,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -32,10 +34,11 @@ public class LoginSteps {
 	public void i_click_on_the_Login_Button() {
 
 		WebElement LoginBtn = driver.findElement(By.id("login"));
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(LoginBtn));
+
 		LoginBtn.click();
 
-		// wait for browser to load - implicit
-		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
 	}
 
 	@When("I enter username")
@@ -50,6 +53,16 @@ public class LoginSteps {
 
 		WebElement Password = driver.findElement(By.id("password"));
 		Password.sendKeys("12345");
+	}
+
+	@When("I click on the LoginB Button")
+	public void i_click_on_the_LoginB_Button() {
+
+		WebElement LoginBtnB = driver.findElement(By.xpath("//form[@id=\"loginForm\"]//div[3]//input[2]"));
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.elementToBeClickable(LoginBtnB));
+
+		LoginBtnB.click();
 	}
 
 	@Then("I should be landed on the Main page")
